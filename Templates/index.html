@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+{%load static%}
+  <head>
+    <title>Team Juggernauts</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="stylesheet" href="{% static 'css/custom-bs.css'%}">
+    <link rel="stylesheet" href="{% static 'css/jquery.fancybox.min.css'%}">
+    <link rel="stylesheet" href="{% static 'fonts/icomoon/style.css'%}">
+    <link rel="stylesheet" href="{% static 'fonts/line-icons/style.css'%}">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">    
+  </head>
+  <body>
+
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+    
+
+<div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div> <!-- .site-mobile-menu -->
+    
+
+    <!-- NAVBAR -->
+    <header class="site-navbar mt-3" id="top">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="site-logo col-6"><a href="index.html">TJ</a></div>
+          
+          <nav class="mx-auto site-navigation">
+            <ul class="site-menu js-clone-nav d-none d-lg-block">
+              <li><a href="index.html" class="nav-link active">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li class="has-children">
+                <a href="#">Our History</a>
+                <ul class="dropdown">
+                  <li><a href="http://sliet.ac.in/wp-content/uploads/2019/03/IGC-2019-report.pdf"> 7th Season of International Go Kart Championship (2019)</a></li>
+                  <li><a href="http://sliet.ac.in/wp-content/uploads/2019/03/IKC-3rd-Report.pdf">Indian Karting Championship Third season (2019)</a></li>
+                  <li><a href="http://sliet.ac.in/wp-content/uploads/2019/03/6th-GKDC-Report1.pdf">6th Go Kart Design Championship (2018)</a></li>
+                </ul>
+              </li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </li>
+          </nav>
+          
+          <div class="col-6 site-burger-menu d-block d-lg-none text-right">
+            <a href="#" class="site-menu-toggle js-menu-toggle"><span class="icon-menu h3"></span></a>
+          </div>
+
+        </div>
+      </div>
+    </header>
+
+    <!-- HOME -->
+    <section class="home-section section-hero overlay slanted" id="home-section">
+
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-8 text-center">
+            <h1>We Are Team Juggernauts</h1>
+            <div class="mx-auto w-75">
+              <p>We are a Go Kart racing team from SLIET Longowal.</p>
+            </div>
+            <p class="mt-5"><a href="contact.html" class="btn btn-outline-white btn-md ">Click to apply!</a></p>
+          </div>
+        </div>
+      </div>
+        
+      <!-- VIDEO -->
+      <div class="video-container">
+        <video autoplay loop="true">
+          <source type="video/mp4" src="{% static 'videos/Tjjjjjjjjjjjjj.mp4'%}">
+        </video>
+      </div>
+
+      <a href="#about-us-section" class="scroll-button smoothscroll">
+        <span class=" icon-keyboard_arrow_down"></span>
+      </a>
+
+    </section>
+    
+    <!-- ABOUT US -->
+    <section class="site-section" id="next-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <a data-fancybox data-ratio="2" href="https://www.youtube.com/watch?v=iJXEIuPcLZA" class="block__96788">
+              <span class="play-icon"><span class="icon-play"></span></span>
+              <img src="{% static 'images/102.jpg'%}" alt="Image" class="img-fluid img-shadow">
+            </a>
+          </div>
+          <div class="col-lg-5 ml-auto">
+            <h3 class="section-title-sub text-primary">Watch the video</h3>
+            <h2 class="section-title mb-3">We Are Team Juggernauts</h2>
+            <p class="lead">Discipline, determination and dedication</p>
+            <p>2017 marked the first time Team Juggernauts participated in a national level Go-Kart event. Comprised of 23 highly dedicated members from Sant Longowal Institute of Engineering and Technology, Longowal(Punjab), the key objective of this team was to learn, design and fabricate a Go-Kart racing vehicle that was safe, comfortable, inexpensive and asthetically appealing. Under the Guidance of our faculty advisor Dr. Shankar Singh and the support of SLIET, the team has won various awards in the coming years ever since.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="site-section about-us-section" id="about-us-section">
+      <div class="container">
+        
+        <div class="row mb-5 pt-0 site-section">
+          <div class="col-md-6 align-self-center">
+            <h3 class="section-title-sub text-primary">Our Faculty Advisor</h3>
+            <h2 class="section-title mb-4">Our Faculty Advisor</h2>
+
+            <p>Professor of Mechanical engineering, SLIET. Has served as Visiting Professor at Asian Institute of Technology, Bangkok (Thailand)</p>
+            <p>Educational Qualifications: <br>
+                Ph.D in Production Engineering from Delhi University, Delhi , 2007<br>
+                M. Tech. Mechanical (Production) from Guru Nanak Dev Engg. College, Ludhiana (P.T.U., Jalandhar) , 2000<br>
+                Bachelor in Engg. (Mechanical Engg.) Hons. from Aligarh Muslim University, Aligarh , 1991</p>
+            <p class="mt-4"><a href="http://sliet.ac.in/people/shankar/" class="spepcial_link">Read more</a></p>
+          </div>
+          <div class="col-md-5 ml-auto img-overlap">
+            <div class="img-1"><img src="{% static 'images/HomePage/shankar sir.jpg'%}" alt="Image" class="img-fluid img-shadow"></div>
+            <div class="img-2"><img src="{% static 'images/HomePage/IMG_8727.jpg'%}" alt="Image" class="img-fluid img-shadow"></div>
+          </div>
+        </div>
+
+        
+
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="site-section services-section bg-light block__62849" id="services-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center" data-aos="fade">
+            <h3 class="section-title-sub text-primary">Departments</h3>
+            <h2 class="section-title mb-3">Departments</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
+
+            <a href="service-single.html" class="block__16443 text-center d-block">
+              <span class="custom-icon mx-auto"><span class="icon-line-tools d-block"></span></span>
+              <h3>Design</h3>
+              <p>A designer handles the overall design of the chassis of the vehicle. He also performs various types of analysis on different parts of the vehicle to test their viability.</p>
+            </a>
+
+          </div>
+          <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
+            
+            <a href="service-single.html" class="block__16443 text-center d-block">
+              <span class="custom-icon mx-auto"><span class="icon-line-lightbulb d-block"></span></span>
+              <h3>Power Transmission</h3>
+              <p>The engine, gears, clutch and other parts involved in the transmission of power from the engine to the rear wheels of the vehicle are handled by this dept. This department requires deep knowledge of the engine, gears, axle and the related calculations.</p>
+            </a>            
+
+          </div>
+          <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
+            
+            <a href="service-single.html" class="block__16443 text-center d-block">
+              <span class="custom-icon mx-auto"><span class="icon-line-laptop d-block"></span></span>
+              <h3>Steering</h3>
+              <p>The department handles the steering of the vehicle. Different types of steering mechanisms and a good knowledge of the center of mass of bodies is essential. Steering also involves long calculations, and one is expected to handle them</p>
+            </a>            
+
+          </div>
+          <div align = 'center'>
+          <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
+            
+            <a href="service-single.html" class="block__16443 text-center d-block">
+              <span class="custom-icon mx-auto"><span class="icon-line-search d-block"></span></span>
+              <h3>Brake</h3>
+              <p>The braking system of the vehicle is handled by this dept. Deep knowledge of the brake disc and how it deforms under heat and pressure, different types of brake fluids, mechanism of different types of brakes, especially the hydraulic brake is required in this field.</p>
+            </a>
+          </div>
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 text-center">
+            <a href="#" class="btn btn-primary btn-md">View All Departments</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+
+    <section class="site-section block__62272" id="portfolio-section">
+      
+
+      <div class="container">
+        <div class="row mb-3">
+          <div class="col-12 text-center" data-aos="fade">
+            <h3 class="section-title-sub text-primary">Our Pride</h3>
+            <h2 class="section-title mb-3">Zorawar</h2>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mb-5" data-aos="fade-up">
+          <div id="filters" class="filters text-center button-group col-md-7">
+            <button class="btn btn-primary active" data-filter="*">The Kart</button>
+          </div>
+        </div>  
+        <div id="posts" class="row no-gutter">
+          {%for file in filearr%}
+          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+            <a href="portfolio-single.html" class="item-wrap">
+              <span class="icon-add"></span>
+              <img class="img-fluid" src="{% static '/images/HomePgGallery/'%}{{file}}">
+            </a>
+          </div>
+          {%endfor%}
+        </div>
+      </div>
+
+    </section>
+
+    <div class="row pb-0 border-top pt-5 block__19738 section-counter">
+
+          <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <div class="d-flex align-items-center justify-content-center mb-2">
+              <span class="icon-line-mobile mr-3"></span>
+              <strong class="number" data-number="4">0</strong>
+            </div>
+            <span class="caption">Years old</span>
+          </div>
+
+          <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <div class="d-flex align-items-center justify-content-center mb-2">
+              <span class="icon-line-lightbulb mr-3"></span>
+              <strong class="number" data-number="4">0</strong>
+            </div>
+            <span class="caption">Karts Built</span>
+          </div>
+
+          <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <div class="d-flex align-items-center justify-content-center mb-2">
+              <span class="icon-line-trophy mr-3"></span>
+              <strong class="number" data-number="8">0</strong>
+            </div>
+            <span class="caption">Competitions participated</span>
+          </div>
+
+          <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <div class="d-flex align-items-center justify-content-center mb-2">
+              <span class="icon-line-puzzle mr-3"></span>
+              <strong class="number" data-number="14">0</strong>
+            </div>
+            <span class="caption">Awards Won</span>
+          </div>
+
+            
+        </div>
+
+
+    <footer class="site-footer slanted-footer">
+
+      <a href="#top" class="smoothscroll scroll-top">
+        <span class="icon-keyboard_arrow_up"></span>
+      </a>
+
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-6 col-md-3 mb-4 mb-md-0">
+            <h3>Our history</h3>
+            <ul class="list-unstyled">
+              <li><a href="http://sliet.ac.in/wp-content/uploads/2019/03/IGC-2019-report.pdf">7th Season of International Go Kart Championship (2019)</a></li>
+              <li><a href="http://sliet.ac.in/wp-content/uploads/2019/03/IKC-3rd-Report.pdf">Indian Karting Championship Third season (2019)</a></li>
+              <li><a href="http://sliet.ac.in/wp-content/uploads/2019/03/6th-GKDC-Report1.pdf">6th Go Kart Design Championship (2018)</a></li>
+          </div>
+          <div class="col-6 col-md-3 mb-4 mb-md-0">
+            <h3>Gallery:</h3>
+            <ul class="list-unstyled">
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="gallery.html">Our Gallery</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-3 mb-4 mb-md-0">
+            <h3>Support</h3>
+            <ul class="list-unstyled">
+              <li><a href="https://www.youtube.com/channel/UCdT1ZzG_SWz6GJNmi57NvAQ">Follow Our YouTube Channel</a></li>
+              <li><a href="https://www.instagram.com/teamjuggernauts/">Follow our Instagram Page</a></li>
+              <li><a href="https://www.facebook.com/sliet.teamjuggernauts.ac.in/">Follow our Facebook Page</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-3 mb-4 mb-md-0">
+            <h3>Social</h3>
+            <div class="footer-social">
+              <a href="https://www.facebook.com/sliet.teamjuggernauts.ac.in/"><span class="icon-facebook"></span></a>
+              <a href="#"><span class="icon-twitter"></span></a>
+              <a href="https://www.instagram.com/teamjuggernauts/"><span class="icon-instagram"></span></a>
+              <a href="https://www.youtube.com/channel/UCdT1ZzG_SWz6GJNmi57NvAQ"><span class="icon-linkedin"></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  
+  </div>
+
+    <!-- SCRIPTS -->
+    <script src="{% static 'js/jquery.min.js'%}"></script>
+    <script src="{% static 'js/bootstrap.bundle.min.js'%}"></script>
+    <script src="{% static 'js/isotope.pkgd.min.js'%}"></script>
+    <script src="{% static 'js/stickyfill.min.js'%}"></script>
+    <script src="{% static 'js/jquery.fancybox.min.js'%}"></script>
+    <script src="{% static 'js/jquery.easing.1.3.js'%}"></script>
+    
+    <script src="{% static 'js/jquery.waypoints.min.js'%}"></script>
+    <script src="{% static 'js/jquery.animateNumber.min.js'%}"></script>
+    
+    <script src="{% static 'js/custom.js'%}"></script>
+  </body>
+</html>
